@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain-community
+sqlalchemy
+psycopg2-binary
+faiss-cpu
+sentence-transformers
+transformers
+torch
+python-dotenv

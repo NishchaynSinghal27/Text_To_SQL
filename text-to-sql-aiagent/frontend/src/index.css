@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0F1419;
+  --surface: #151B23;
+  --border: #262E38;
+  --text: #E8EAED;
+  --text-muted: #7C8494;
+  --accent: #E8A33D;
+  --accent-dim: #8A6528;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+.font-mono-data {
+  font-family: 'IBM Plex Mono', monospace;
+}
